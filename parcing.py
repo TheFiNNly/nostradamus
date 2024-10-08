@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 
 class Signin:  # класс для авторизации на сайте
-    def __init__(self, login='mag.vladislav@mail.ru', password='199536688VlAd'):
+    def __init__(self, login='mail', password='pass'):
         global driver
         driver = webdriver.Chrome()  # создаем подключение
         driver.maximize_window()
